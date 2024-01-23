@@ -23,7 +23,7 @@ const Login = () => {
     dispatch({ type: "LOGIN_START" });
 
     try {
-      const res = await axios.post("http://localhost:2020/api/auth/login",credentials, // Send credentials directly as the request body
+      const res = await axios.post("hotel-room-booking-psi.vercel.app/auth/login",credentials,
       {
         headers: {
           "Content-Type": "application/json",
