@@ -26,7 +26,7 @@ mongoose.connection.on("disconnected", () => {
 
 app.use(cors(
   {
-    origin: ["https://deploy-mern-frontend.vercel.app"],
+    origin: ["https://hotel-room-booking-client.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
   }
