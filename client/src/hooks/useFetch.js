@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 const useFetch = (url) => {
-  const baseUrl = "http://localhost:2020/api";
+  const baseUrl = "hotel-room-booking-psi.vercel.app";
 
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
